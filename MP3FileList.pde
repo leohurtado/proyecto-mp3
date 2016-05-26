@@ -34,15 +34,15 @@ float volume=0;
 AudioMetaData meta;
 String [] paths;
 int i=1;
-PFont font;
+//PFont font;
 
 Client client;
 Node node;
 
 void setup() {
   size(530, 500);
-  font = loadFont("Arial.vlw");
-  textFont(font);
+  //font = loadFont("Arial.vlw");
+  //textFont(font);
   cp5 = new ControlP5(this);
   paths = new String[120];
   minim = new Minim(this);
